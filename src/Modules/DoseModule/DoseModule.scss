@@ -1,0 +1,33 @@
+.Dose-Midsection {
+    width: 100%;
+    height: 830px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .Dose-Progressbar {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+        .progress {
+            width: 85%;
+            height: 100px;
+        }
+    }
+
+    .Dose-Readings {
+        height: 500px;
+
+        .Dose-Dose {
+            font-size: 164px;
+            text-align: center;
+        }
+
+        .Dose-Neutrons {
+            font-size: 60px;
+            color: #7A7676;
+            text-align: center;
+        }
+    }
+}

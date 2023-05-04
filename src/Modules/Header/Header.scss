@@ -1,0 +1,37 @@
+.Header {
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: #C1BDBD;
+    border-bottom: 10px solid #0D6EFD;
+
+    .Header-Left {
+        margin-left: 20px;
+
+        .Header-Logo {
+            height: 70px;
+        }
+    }
+
+    .Header-Right {
+        display: flex;
+        margin-right: 20px;
+
+        .Header-Right-DateAndTime {
+            margin-top: 8px;
+
+            h3 {
+                color: #F6F3F3;
+            }
+        }
+
+        .Header-Right-Battery {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    }
+}
